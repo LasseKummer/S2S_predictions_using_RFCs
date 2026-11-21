@@ -10,3 +10,9 @@ The folders `features` and `targets` contain the input files for the random fore
 ### Preprocessing and statistical analysis
 In order to reproduce the input files for the RFCs, the scripts in the folder `preprocessing` can be used. The necessary data can be downloaded from https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels and https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels (ERA5 data via C3S/CDS), https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.nao.index.b500101.current.ascii (NAO index by NOAA) and https://www.bom.gov.au/climate/mjo/#tabs=Monitoring (MJO data by Australian BOM).\
 The preprocessing results can also be used for the statistical analysis scripts in `analysis`.
+
+### Python versions
+`preprocessing` and `analysis`: 3.13.9\
+`validation`: 3.14.4\
+`testing`: 3.12.9\
+`testing/regimes`: 3.14.6
